@@ -24,8 +24,7 @@ var config = {
       // The signed-in user info.
       var user = result.user;
       $('.container ').show();
-       // window.location.href = '../index.html';
-
+       
       // ...
     }).catch(function(error) {
       // Handle Errors here.
@@ -205,7 +204,7 @@ database.ref().on("child_added", function(childSnapshot, prevChildKey){
             location.reload();
         }
   
- 
+ });
 
 
 		/*(document).on("click", ".glyphicon-edit", updateTrain);
@@ -244,7 +243,7 @@ database.ref().on("child_added", function(childSnapshot, prevChildKey){
         // $('#trainKey').val(childSnapshot.key);
 		   }
             */
-	 });	  
+	 	  
 
 
 
