@@ -54,7 +54,7 @@ var config = {
 // ================================================================================================================================
 // ===================================sign in github============================================================================
     
-      // sign in using google
+  /*    // sign in using github
     $(document).on('click', '.signInGithub', function() {
     
    var provider = new firebase.auth.GithubAuthProvider();
@@ -88,7 +88,7 @@ var config = {
     $(this).removeClass('signOut')
       .addClass('signInGithub')
       .html('Github ');
-  });
+  });*/
 // ================================================================================================================================
 var database = firebase.database();
 
