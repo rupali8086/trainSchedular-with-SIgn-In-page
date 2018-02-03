@@ -23,8 +23,8 @@ var config = {
       var token = result.credential.accessToken;
       // The signed-in user info.
       var user = result.user;
-      // $('.container ').show();
-       window.location.href = '../index.html';
+      $('.container ').show();
+       // window.location.href = '../index.html';
 
       // ...
     }).catch(function(error) {
