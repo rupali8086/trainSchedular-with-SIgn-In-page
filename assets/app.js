@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
      $('.container ').hide();
+
 // 1. Initialize Firebase
 var config = {
     apiKey: "AIzaSyCHP4hygJ8Oudpxn_ymeNyAZZbiv9Wm368",
@@ -22,7 +23,9 @@ var config = {
       var token = result.credential.accessToken;
       // The signed-in user info.
       var user = result.user;
-      $('.container ').show();
+      // $('.container ').show();
+       window.location.href = '../index.html';
+
       // ...
     }).catch(function(error) {
       // Handle Errors here.
